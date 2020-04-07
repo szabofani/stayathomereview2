@@ -1,0 +1,84 @@
+.container{
+  width: 600px;
+  margin-left:auto;
+  margin-right:auto;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+.card-holder{
+  display:flex;
+  justify-content:space-between;
+}
+
+.card{
+  width:160px;
+  background: #3cb878;
+  text-align: center;
+  padding-top:20px;
+  color:white;
+  padding-bottom:5px;
+  box-shadow:0px 0px 3px 2px grey;
+}
+
+.news {
+  color:grey;
+  margin-top:40px;
+}
+#terms{
+  position: relative;
+  top:2px;
+}
+.news {
+  border: thin solid #cfcfcf;
+  padding:10px;
+  border-radius: 5px;
+  position:relative;
+ 
+}
+.news #email{
+  display:block;
+  width: 100%;
+  height: 30px;
+  border: solid thin #cfcfcf;
+  padding-left: 3px;
+  border-radius: 3%;
+  box-sizing:border-box;
+  
+}
+.news button{
+  display:block;
+  width: 100%;
+  background: #3cb878;
+  border:0;
+  color:white;
+  height: 30px;
+  margin-top:5px;}
+  .news h3{
+    margin-top:0;
+}
+.closing-x button{
+  background: white;
+  color:black;
+  cursor: pointer;
+ 
+}
+.closing-x {
+  position:absolute;
+  top:0px;
+  right:5px;
+  cursor:pointer;
+ 
+}
+#question-circle{
+  height:100px;
+  width:100px;
+  background-color:#3cb878;
+  color:white;
+  font-size:70px;
+  border-radius:50%;
+  text-align:center;
+  
+  position:fixed;
+  bottom:10px;
+  right:10px;
+}
